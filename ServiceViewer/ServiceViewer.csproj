@@ -51,21 +51,24 @@
     <Reference Include="Xamarin.Mac" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\AppIcon-128.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\AppIcon-16.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\AppIcon-32.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\AppIcon-512.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_256px.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_512px copy 4.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_64px.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_512px.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_1024px.png" />
+    <ImageAsset Include="Assets.xcassets\ApplicationIcon.appiconset\applicationsIcon_32px.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Assets.xcassets\ApplicationIcon.appiconset\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -82,6 +85,16 @@
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\applicationsIcon_256px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_32px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_40px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_64px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_1024px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_80px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_128px.png" />
+    <BundleResource Include="Resources\Icons\applicationsIcon_512px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
