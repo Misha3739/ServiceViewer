@@ -83,8 +83,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icons\applicationsIcon_256px.png" />
@@ -95,6 +95,7 @@
     <BundleResource Include="Resources\Icons\applicationsIcon_80px.png" />
     <BundleResource Include="Resources\Icons\applicationsIcon_128px.png" />
     <BundleResource Include="Resources\Icons\applicationsIcon_512px.png" />
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
